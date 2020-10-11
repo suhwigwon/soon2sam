@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>책소개</title>
+<style>
+img{
+  border-right:4px black solid;
+}
+h1{
+  text-align:center;
+  border-bottom:4px black solid;
+  padding:70px;
+  font-size:45px;
+  margin:0px;
+}
+h2{
+  margin:0px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 350px 1fr
+}
+.a{
+  border:4px black solid;
+  margin:0px;
+}
+a{
+text-decoration:none;color:black;
+}
+.b{
+  border-bottom:4px black solid;
+  border-right: 4px black solid;
+  padding-top:78px;
+  padding-bottom:78px;
+}
+@media(max-width:900px){
+  #grid{
+    display: block;
+  }
+  .a{
+    border:none;
+  }
+  .b{
+    border-bottom:none;
+    border-right: none;
+  }
+  img {
+    display: block; margin: 0px auto;
+    border-right:none;
+  }
+  ul{
+    width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+</style>
+
+</head>
+<body>
+<h1>소설책[순이삼촌]</h1>
+<div id="grid">
+  <h2><img src="책.jpg" width=350px></h2>
+<div>
+<strong><p align="center" style="font-size:25px;" class="a">
+  여기는 소설책 순이삼촌을 소개하는곳입니다<br>
+  목차를 선택해 둘러보시기 바랍니다.
+</strong></p>
+<div style="font-size:25px" class="b"><strong>
+<ul>
+<li><a href="배경.html">순이삼촌 책의 배경</a></li>
+<li><a href="내용.html">순이삼촌 책의 줄거리</a></li>
+<li><a href="생각.html">나의 감상평,생각</a></li>
+</ul></strong>
+</div>
+</div>
+</div>
+</body>

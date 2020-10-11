@@ -1,0 +1,47 @@
+h1 {
+  font-size:45px;
+  text-align: center;
+  border-bottom:4px black solid;
+  padding:50px;
+  margin-bottom:0px;
+
+
+}
+h2{
+  font-size:35px;
+  text-align: right;
+  border-right:4px black solid;
+  display:inline;
+  padding: 20px;
+  margin:0px;
+}
+.saw{
+  font-size:25px;
+  padding-right: 0px;
+  border-right:4px black solid;
+  margin:0px;
+  padding-top:20px;
+}
+ #grid{
+   display: grid;
+   grid-template-columns: 250px 0.85fr
+ }
+ .ad{
+   border-bottom:4px black solid;
+   border-right:4px black solid;
+ }
+  @media(max-width:1600px){
+    #grid{
+      display: block;
+    }
+    .ad{
+      border-bottom:none;
+      border-right:none;
+    }
+    .saw{
+      border-right:none;
+    }
+    h2{
+      border-right:none;
+    }
+  }
