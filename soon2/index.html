@@ -1,13 +1,18 @@
 <!doctype html>
 <html>
 <head>
-<title>웹사이트 권장 브라우저</title>
+  <link rel="stylesheet" href="style2.css">
+<title>웹사이트 권장 브라우저</title><link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <style>
+body{
+  background-image: url(사진12.jpg);
+  background-size: cover;
+}
 .a{
   border:4px black solid;
   display:block;
   padding:150px;
-  font-size:25px;
+  font-size:30px;
   text-decoration: none;
   color:red;
   border-top-color:red;
@@ -17,11 +22,19 @@
   margin:5px;
 }
 span{
-  font-size: 20px;
+  font-size: 30px;
 }
 #grid{
   display:grid;
   grid-template-columns: 955px 1.5fr
+}
+@media(max-width:1600px){
+  #grid{
+    display: block;
+  }
+  .a]{
+    border:none;
+  }
 }
 </style>
 </head>
